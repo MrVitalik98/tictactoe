@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: lightblue;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  line-height: 0;
+  text-transform: capitalize;
+  font-family: monospace;
+  font-size: 17px;
+}
+
+span {
+  text-transform: lowercase;
+}
+
+.table {
+  table-layout: fixed;
+  max-width: 500px !important;
+}
+
+.table th {
+  text-shadow: 1px 1px 1px #000;
+}
+
+.table tbody tr {
+  height: 60px;
+  line-height: 35px;
+}
+
+.table tbody tr td {
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.table tbody tr td:hover {
+  background: lightslategrey;
+}
+
+.jumbotron {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 350px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.jumbotron.visible {
+  margin: 30px auto 50px;
+}
+
+.fa-repeat {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.blockquote-footer {
+  position: relative;
+  bottom: 5px;
+}
+
+.blockquote-footer p {
+  text-transform: none;
+}
+
+#creator {
+  position: absolute;
+  bottom: 7px;
+  text-align: center;
+  width: 100%;
+}
+
+#creator p {
+  font-size: 15px;
+}
+/*# sourceMappingURL=index.css.map */
